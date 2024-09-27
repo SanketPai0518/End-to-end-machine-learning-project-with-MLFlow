@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/mlruns/0/4ad44723f33e47318c38c65c89b908e0/artifacts
+end_time: 1727451099507
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ad44723f33e47318c38c65c89b908e0
+run_name: clean-moth-196
+run_uuid: 4ad44723f33e47318c38c65c89b908e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727451099497
+status: 3
+tags: []
+user_id: sanketsushantpai

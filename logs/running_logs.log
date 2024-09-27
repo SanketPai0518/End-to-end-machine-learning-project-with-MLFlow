@@ -819,3 +819,70 @@ x==========x]
 [2024-09-28 01:27:12,053: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2024-09-28 01:31:38,062: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-28 01:31:39,329: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-28 01:31:39,330: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 01:31:39,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 01:31:39,332: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 01:31:39,332: INFO: common: created directory at: artifacts]
+[2024-09-28 01:31:39,332: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-28 01:31:39,332: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-09-28 01:31:39,333: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-28 01:31:39,333: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-28 01:31:39,334: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 01:31:39,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 01:31:39,335: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 01:31:39,335: INFO: common: created directory at: artifacts]
+[2024-09-28 01:31:39,335: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-28 01:31:39,341: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-28 01:31:39,341: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-09-28 01:31:39,341: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 01:31:39,342: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 01:31:39,342: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 01:31:39,342: INFO: common: created directory at: artifacts]
+[2024-09-28 01:31:39,342: INFO: common: created directory at: artifacts/data_transformation]
+[2024-09-28 01:31:39,352: INFO: data_transformation: Splited data into training and test sets]
+[2024-09-28 01:31:39,352: INFO: data_transformation: (1199, 12)]
+[2024-09-28 01:31:39,352: INFO: data_transformation: (400, 12)]
+[2024-09-28 01:31:39,352: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-09-28 01:31:39,352: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-09-28 01:31:39,353: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 01:31:39,354: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 01:31:39,354: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 01:31:39,354: INFO: common: created directory at: artifacts]
+[2024-09-28 01:31:39,354: INFO: common: created directory at: artifacts/model_trainer]
+[2024-09-28 01:31:39,363: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-09-28 01:31:39,363: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-09-28 01:31:39,366: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 01:31:39,366: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 01:31:39,368: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 01:31:39,368: INFO: common: created directory at: artifacts]
+[2024-09-28 01:31:39,368: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-09-28 01:31:39,505: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2024-09-28 01:31:39,508: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-09-28 01:31:48,279: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.125:8080]
+[2024-09-28 01:31:48,280: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-09-28 01:31:59,909: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:31:59] "GET / HTTP/1.1" 200 -]
+[2024-09-28 01:32:00,045: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:00] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:00,048: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:00] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:00,052: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:00] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:00,052: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:00] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:00,190: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:00] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:00,191: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:00] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:12,686: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:12] "POST /predict HTTP/1.1" 200 -]
+[2024-09-28 01:32:12,736: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:12] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:12,740: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:12] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2024-09-28 01:32:12,776: INFO: _internal: 127.0.0.1 - - [28/Sep/2024 01:32:12] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
