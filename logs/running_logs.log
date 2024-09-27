@@ -189,3 +189,75 @@ x==========x]
 [2024-09-27 22:03:01,654: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-09-27 22:05:46,296: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-27 22:05:54,558: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:05:54,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:05:54,562: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:05:54,562: INFO: common: created directory at: artifacts]
+[2024-09-27 22:06:20,069: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:06:20,071: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:06:20,073: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:06:20,074: INFO: common: created directory at: artifacts]
+[2024-09-27 22:06:20,074: INFO: common: created directory at: artifacts/data_transformation]
+[2024-09-27 22:06:20,164: INFO: 741865018: Splited data into training and test sets]
+[2024-09-27 22:06:20,164: INFO: 741865018: (1199, 12)]
+[2024-09-27 22:06:20,164: INFO: 741865018: (400, 12)]
+[2024-09-28 00:33:38,374: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-28 00:33:38,616: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-28 00:33:38,617: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 00:33:38,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 00:33:38,618: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 00:33:38,619: INFO: common: created directory at: artifacts]
+[2024-09-28 00:33:38,619: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-28 00:33:38,619: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-09-28 00:33:38,621: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-28 00:33:38,621: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-28 00:33:38,622: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 00:33:38,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 00:33:38,623: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 00:33:38,623: INFO: common: created directory at: artifacts]
+[2024-09-28 00:33:38,623: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-28 00:33:38,635: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-28 00:33:38,635: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-09-28 00:33:38,636: ERROR: main: name 'DataTransformationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/main.py", line 29, in <module>
+    data_ingestion = DataTransformationTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataTransformationTrainingPipeline' is not defined
+[2024-09-28 00:35:30,933: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-28 00:35:31,576: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-28 00:35:31,577: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 00:35:31,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 00:35:31,579: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 00:35:31,579: INFO: common: created directory at: artifacts]
+[2024-09-28 00:35:31,579: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-28 00:35:31,579: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-09-28 00:35:31,581: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-28 00:35:31,581: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-28 00:35:31,581: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 00:35:31,581: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 00:35:31,582: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 00:35:31,582: INFO: common: created directory at: artifacts]
+[2024-09-28 00:35:31,582: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-28 00:35:31,591: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-09-28 00:35:31,591: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-09-28 00:35:31,591: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-28 00:35:31,592: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-28 00:35:31,592: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-28 00:35:31,592: INFO: common: created directory at: artifacts]
+[2024-09-28 00:35:31,592: INFO: common: created directory at: artifacts/data_transformation]
+[2024-09-28 00:35:31,603: INFO: data_transformation: Splited data into training and test sets]
+[2024-09-28 00:35:31,603: INFO: data_transformation: (1199, 12)]
+[2024-09-28 00:35:31,603: INFO: data_transformation: (400, 12)]
+[2024-09-28 00:35:31,603: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
