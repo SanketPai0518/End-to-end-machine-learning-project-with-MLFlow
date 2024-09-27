@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/mlruns/0/09f8f4118e57421da53cab8635fde27d/artifacts
+end_time: 1727450832053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09f8f4118e57421da53cab8635fde27d
+run_name: merciful-eel-625
+run_uuid: 09f8f4118e57421da53cab8635fde27d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727450832040
+status: 3
+tags: []
+user_id: sanketsushantpai
