@@ -69,3 +69,123 @@ Source-Age: 0
 [2024-09-27 21:34:19,643: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-09-27 21:40:54,072: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-27 21:40:54,073: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 21:40:54,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 21:40:54,074: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 21:40:54,075: INFO: common: created directory at: artifacts]
+[2024-09-27 21:40:54,075: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-27 21:40:55,179: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4E0A:290873:A2027:C2AC0:66F694F3
+Accept-Ranges: bytes
+Date: Fri, 27 Sep 2024 11:40:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-adl2040025-ADL
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1727437255.884581,VS0,VE339
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5da40a37581947e14eb3da5dd949bb7834424a35
+Expires: Fri, 27 Sep 2024 11:45:55 GMT
+Source-Age: 0
+
+]
+[2024-09-27 21:40:55,181: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-27 21:42:35,296: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 21:42:35,299: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 21:42:35,301: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 21:42:35,303: INFO: common: created directory at: artifacts]
+[2024-09-27 21:42:35,304: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-27 21:51:22,367: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 21:51:22,372: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 21:51:22,373: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 21:51:22,375: INFO: common: created directory at: artifacts]
+[2024-09-27 21:51:22,375: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-27 21:52:30,602: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 21:52:30,606: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 21:52:30,609: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 21:52:30,661: INFO: common: created directory at: artifacts]
+[2024-09-27 21:52:30,664: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-27 22:00:18,039: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-27 22:01:05,700: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-27 22:01:05,882: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-27 22:01:05,883: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:01:05,883: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:01:05,884: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:01:05,884: INFO: common: created directory at: artifacts]
+[2024-09-27 22:01:05,884: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-27 22:01:05,884: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-09-27 22:01:05,886: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-27 22:01:05,886: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-27 22:01:05,886: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:01:05,886: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:01:05,887: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:01:05,887: INFO: common: created directory at: artifacts]
+[2024-09-27 22:01:05,887: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "/Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/main.py", line 19, in <module>
+    data_validation.main()
+  File "/Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/src/mlProject/pipeline/stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'
+[2024-09-27 22:02:20,862: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-27 22:02:21,044: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-27 22:02:21,044: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:02:21,045: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:02:21,046: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:02:21,046: INFO: common: created directory at: artifacts]
+[2024-09-27 22:02:21,046: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-27 22:02:21,046: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-09-27 22:02:21,047: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-27 22:02:21,047: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-27 22:02:21,048: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:02:21,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:02:21,048: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:02:21,048: INFO: common: created directory at: artifacts]
+[2024-09-27 22:02:21,049: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "/Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/main.py", line 19, in <module>
+    data_validation.main()
+  File "/Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/src/mlProject/pipeline/stage_02_data_validation.py", line 15, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'
+[2024-09-27 22:03:01,384: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-09-27 22:03:01,641: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-09-27 22:03:01,642: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:03:01,642: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:03:01,643: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:03:01,643: INFO: common: created directory at: artifacts]
+[2024-09-27 22:03:01,643: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-09-27 22:03:01,643: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-09-27 22:03:01,645: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-09-27 22:03:01,645: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-09-27 22:03:01,645: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-09-27 22:03:01,645: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-09-27 22:03:01,646: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-09-27 22:03:01,646: INFO: common: created directory at: artifacts]
+[2024-09-27 22:03:01,646: INFO: common: created directory at: artifacts/data_validation]
+[2024-09-27 22:03:01,654: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
