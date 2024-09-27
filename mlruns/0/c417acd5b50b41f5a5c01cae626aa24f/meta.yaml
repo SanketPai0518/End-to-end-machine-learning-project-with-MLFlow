@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sanketsushantpai/Desktop/End-to-end-machine-learning-project-with-MLFlow/mlruns/0/c417acd5b50b41f5a5c01cae626aa24f/artifacts
+end_time: 1727449983987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c417acd5b50b41f5a5c01cae626aa24f
+run_name: able-skink-668
+run_uuid: c417acd5b50b41f5a5c01cae626aa24f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727449983977
+status: 3
+tags: []
+user_id: sanketsushantpai
